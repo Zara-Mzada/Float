@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+html{
+    font-size: 16px;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+header{
+    background-color: rgb(30, 30, 30);
+    padding: 20px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container > a{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    float: left;
+    margin-right: 80px;
+}
+.container ul{
+    list-style: none;
+    padding-top: 10px;
+}
+.container ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.container ul li:last-child{
+    margin-right: 0;
+}
+.container ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+main{
+    background-color: rgb(181, 180, 180);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.main-class{
+    width: 65%;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left;
+}
+.main-class-heading{
+    padding: 30px 40px 10px;
+}
+.main-class-heading > p{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.main-class-heading time p{
+    color: gray;
+    font-size: 0.9rem;
+}
+.main-class>img{
+    width: 100%;
+}
+.main-class>p{
+    padding: 20px 40px;
+    line-height: 1.5rem;
+}
+aside{
+    width: 32%;
+    float: right;
+}
+.above-section{
+    background-color: #ffffff;
+    padding: 25px 0;
+    margin-bottom: 20px;
+}
+.above-container{
+    width: 87%;
+    margin: 0 auto;
+}
+.above-container h3{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.events-lines{
+    margin-bottom: 25px;
+}
+.events-lines img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.events-lines p{
+    padding-top: 5px;
+}
+.below-section{
+    background-color: #ffffff;
+    padding: 30px 15px;
+}
+.below-container{
+    width: 87%;
+}
+.below-container p{
+    font-size: 1.1rem;
+}
